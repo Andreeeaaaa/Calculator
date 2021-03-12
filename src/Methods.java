@@ -193,7 +193,7 @@ public class Methods {
                 }
                 }
 
-                if (operazione == "+".charAt(0)) {                  //Trovo il segno dell'operazione in un modo assolutamente poco comodo e la calcolo
+                if (operazione == "+".charAt(0)) {                  //Trovo il segno dell'operazione e la calcolo
                     res = segnoPrima + segnoDopo;
                 } else if (operazione == "-".charAt(0)) {
                     res = segnoPrima - segnoDopo;
@@ -298,7 +298,7 @@ public class Methods {
                         }
                     }
 
-                    if (operazione1 == "+".charAt(0)) {                  //Trovo il segno dell'operazione in un modo assolutamente poco comodo e la calcolo
+                    if (operazione1 == "+".charAt(0)) {                  //Trovo il segno dell'operazione e la calcolo
                         res = segnoPrima + segnoDopo;
                     } else if (operazione1 == "-".charAt(0)) {
                         res = segnoPrima - segnoDopo;
@@ -389,7 +389,7 @@ public class Methods {
                         }
                     }
 
-                    if (operazione2 == "+".charAt(0)) {                  //Trovo il segno dell'operazione in un modo assolutamente poco comodo e la calcolo
+                    if (operazione2 == "+".charAt(0)) {                  //Trovo il segno dell'operazione e la calcolo
                         res = segnoPrima + segnoDopo;
                     } else if (operazione2 == "-".charAt(0)) {
                         res = segnoPrima - segnoDopo;
